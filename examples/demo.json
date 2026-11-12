@@ -1,0 +1,11 @@
+{
+  "now": "2026-11-12T12:00:00Z",
+  "events": [
+    {
+      "id": "meeting",
+      "kind": "planned",
+      "target_at": "2026-11-13T10:00:00Z",
+      "occurred_at": "2026-11-13T10:00:00Z"
+    }
+  ]
+}

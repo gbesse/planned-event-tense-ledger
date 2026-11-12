@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "planned-event-tense-ledger"
+version = "0.1.0a1"
+description = "FR: Séparer événements prévus accomplis et annulés | EN: Separate planned occurred and cancelled events | ES: Separar eventos previstos realizados y cancelados"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+planned-event-tense-ledger = "planned_event_tense_ledger.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["planned_event_tense_ledger*"]
